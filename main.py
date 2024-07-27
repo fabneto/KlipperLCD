@@ -71,7 +71,7 @@ class KlipperLCD ():
             data.file_name     = self.printer.file_name
             data.max_velocity           = self.printer.max_velocity          
             data.max_accel              = self.printer.max_accel             
-            data.max_accel_to_decel     = self.printer.max_accel_to_decel    
+            data.minimum_cruise_ratio     = self.printer.minimum_cruise_ratio    
             data.square_corner_velocity = self.printer.square_corner_velocity
 
             self.lcd.data_update(data)
